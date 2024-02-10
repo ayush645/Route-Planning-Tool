@@ -11,6 +11,7 @@
   <a href="">[![Minimum node.js version](https://badgen.net/npm/node/express)](https://npmjs.com/package/express)</a>
   <a href="">[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)</a>
 
+![image](https://github.com/ayush645/route-planning-tool/assets/80757890/497df293-ca1a-4937-ad0d-ef7a9b5a0faa)
 
 
 </div>
@@ -79,23 +80,19 @@ $ npm run dev
 ```
 
 
-### SignUp 
-![WhatsApp Image 2024-02-04 at 7 08 55 AM](https://github.com/ayush645/tanX.fi/assets/80757890/52c86253-e7ed-4210-9ce3-c07dc58db16d)
+### Home Page 
+![image](https://github.com/ayush645/route-planning-tool/assets/80757890/7241736d-56ca-4d05-b2b7-9a4015c013fd)
 
 
 
-### Signin
-![WhatsApp Image 2024-02-04 at 7 08 55 AM(1)](https://github.com/ayush645/tanX.fi/assets/80757890/e724c633-3bd2-4d7d-bfae-259d6328f0b6)
+### Add Location
 
-## All Products
-![WhatsApp Image 2024-02-04 at 6 54 33 AM(2)](https://github.com/ayush645/tanX.fi/assets/80757890/a5193023-fa08-4bc0-86ec-07d2dcdce2ad)
+![image](https://github.com/ayush645/route-planning-tool/assets/80757890/bd35183b-3b08-40f5-9a1c-9325dbd25a92)
 
-## Add to Cart
-![WhatsApp Image 2024-02-04 at 6 54 32 AM](https://github.com/ayush645/tanX.fi/assets/80757890/286e235b-832c-4933-bf78-4b98fc822782)
 
-## Favourite Product
-![WhatsApp Image 2024-02-04 at 6 54 33 AM(1)](https://github.com/ayush645/tanX.fi/assets/80757890/4e52a0ae-cafc-4462-8c1a-93e7923c5960)
+## Mark Job as complete 
 
-## Order 
-![WhatsApp Image 2024-02-04 at 6 54 32 AM(1)](https://github.com/ayush645/tanX.fi/assets/80757890/fc4b0215-bb24-4967-8257-2c84f73fa53c)
+![image](https://github.com/ayush645/route-planning-tool/assets/80757890/497df293-ca1a-4937-ad0d-ef7a9b5a0faa)
+
+
 
