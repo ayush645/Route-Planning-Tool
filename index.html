@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Route Planning Tool</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="map-container">
+  <div id="map"></div>
+</div>
+<div class="buttons-container">
+  <input type="text" id="addressInput" placeholder="Enter Location">
+  <button id="add-location-button">Add Location</button>
+</div>
+
+<div id="controls">
+    <button id="plan-route-button">Plan Route</button>
+    <button id="complete-button">Mark As Done </button>
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUA4-LUsxllE2-s4fzu13gNt0JWef-YuY&libraries=geometry&callback=initMap" async defer></script>
+<script src="script.js"></script>
+</body>
+</html>
