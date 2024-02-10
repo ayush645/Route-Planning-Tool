@@ -12,8 +12,6 @@
   <a href="">[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)</a>
 
 
-![WhatsApp Image 2024-02-04 at 6 54 33 AM(2)](https://github.com/ayush645/tanX.fi/assets/80757890/4c2b1533-ffe5-4d41-a63b-ae5c781e0d6a)
-
 
 </div>
 
@@ -27,38 +25,12 @@
 ## Understanding Problem Statement
 
 
-1. Introduction
-The Route Planning Tool MVP (Minimum Viable Product) is a basic version of the application designed to demonstrate core functionality. It aims to optimize routes for users attending multiple jobs in various locations with minimal features and complexity.
-
-2. User Flow
-   
-2.1. Address Input:
-Users access the application and are presented with a map interface.
-A single field is provided for users to input addresses manually.
-
-2.2. Adding Multiple Locations:
-Users can add multiple addresses by manually inputting them into the address field.
-Upon submitting each address, the location is pinned on the map.
-
-2.3. Adding Technician Location:
-After adding all job locations, users can manually input the technician's location.
-The live location detection feature is excluded from the MVP.
-
-2.4. Route Planning:
-Once all locations are pinned, users can click on a "Plan Route" button.
-The application calculates the shortest route to attend all jobs using a basic algorithm.
-The suggested route is displayed on the map as a line connecting the locations.
-
-2.5. Navigation and Job Completion:
-As the technician progresses through the jobs, they can mark each job as completed.
-Basic navigation guidance is provided through the suggested route line on the map.
+The problem addressed by the Route Planning Tool MVP is the inefficiency and time consumption associated with manually planning routes for technicians attending multiple job locations. Currently, technicians often rely on manual methods or basic navigation apps that do not offer optimized routing specifically tailored for their needs. This leads to suboptimal routes, wasted time, and increased fuel consumption. By providing a basic yet functional tool for route optimization, the MVP aims to streamline the process, reduce travel time, and ultimately improve the efficiency of technicians attending multiple job locations.
 
 
 
 ## Tech Stack Used
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -82,29 +54,26 @@ $ npm install
 ### Start Local Server For API Testing:
 
 ```
-$ npm run server
+$ npm run dev
 ```
 
-### Start React app:
+### Run Go live :
 
-```
-$ npm start
-```
+
 
 ## Endpoints
 
 ```
-/users	-     Lists all available users
+/add-location	-     Post request to add location
 
 
-/products - 	Lists all available products
+/jobs - 	Lists all the jobs
 
 
-/orders	 -    Lists all available orders
+/mark-complete	 -    Mark complete for particular job
 
 
 
-/favourites - Lists all available favourites
 
 
 ```
